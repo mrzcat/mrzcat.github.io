@@ -43,10 +43,19 @@ footer {
 	color: #333;
 }
 
+#mc_embed_signup {
+	height: 86px;
+}
+
 .jumbotron p {
 	margin-bottom: 30px;
 	font-weight: 100;
 	padding: 0 50px;
+}
+
+.jumbotron .form-control {
+	height: 69px;
+	font-size: 36px;
 }
 
 .modal-content iframe {
@@ -71,6 +80,14 @@ footer {
 	-moz-border-radius: 24px;
 }
 
+.modal-dialog {
+	position: absolute;
+	width: auto;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -173px;
+}
 
 .homepage {
 	text-align: center;
